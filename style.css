@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#main {
+    width: 100%;
+    /* padding: 3vw 10vw; */
+}
+.home {
+    width: 100%
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 3vw 10vw;
+}
+#nav #nleft {
+    display: flex;
+    gap: 30px;
+}
+
+#nav #center  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#nav #right {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+#nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 800;
+}   
+.hero{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+    width: 100%;
+    padding: 0 10vw;
+    margin-top: 18vw;
+    /* background-color: green; */
+    
+
+}
+.leftcontainer{
+    width: 12vw;
+    /* border: 2px solid orange; */
+    
+
+}
+.leftcontainer h5{
+    font-size: 20px;
+}
+.leftcontainer h2{
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 13px;
+}
+.leftcontainer p{
+    font-size: 11px;
+    width: 15vw;
+    font-weight: 400;
+    opacity: 0.7;
+    /* background-color: antiquewhite; */
+    padding: 10px 0;
+
+}
+#imgsustain{
+    position: relative;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 17vw;
+
+}
+#imgsustain img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.centercontainer{
+    width: 30vw;
+    min-height: 45vw;
+    position: relative;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.heading h1{
+    font-size: 5vw;
+    font-weight: 800;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: ; */
+    line-height: 50px;
+}
+.centercontainer .heading{
+    position: absolute;
+    top: -14%;
+    left: -10%;
+}
+.centercontainer p {
+    width: 15vw;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: kanit;
+    line-height: 20px;
+    padding: 5px 0;
+}
+.rightcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.rightcontainer h3{
+    font-size: 15px;
+    opacity: 0.8;
+    font-family: kanit;
+}
+.rightcontainer .circle{
+    display: flex;
+    justify-content: space-between;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+   
+    gap: 30px;
+
+}
+.rightcontainer .circle i{
+    font-size: 1vw;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#motive{
+    padding: 5vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#motive h3{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    font-weight: 400;
+}
+#motive p{
+    margin-top: 70px;
+    text-align: right;
+     letter-spacing: 0.50px; 
+     word-spacing: 2px;
+    font-family: kanit;
+    width: 80%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+#motive span{
+   
+    width: 60px;
+    height: 35px;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 48%;
+    position: relative;
+    top: 15px;
+    margin: 0 10px;
+}
+.onespan{
+    background-image: url("images/bluegirl.jpg");
+    background-position:  0% 55%;
+    background-size: cover;
+}
+.twospan{
+    
+    border-radius: 48%;
+    background-image: url("images/shaljam.jpg");
+    background-position:  0% 50%;
+    background-size: cover;
+    
+}
+.threespan{
+   
+    border-radius: 48%;
+    background-image: url("images/grass.jpg");
+    background-position:  0% 50%;
+    background-size: cover;
+    
+}
+.fourspan{
+    
+    border-radius: 48%;
+    background-image: url("images/sea.jpg");
+    background-position:  center;
+    background-size: cover;
+    
+}
+.heropage2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 10vw;
+    margin: auto;
+}
+.mainimgleft{
+   
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    /* background-color: aqua; */
+}
+.leftimage{
+
+    width: 100%;
+    height:25vw;
+    background-color: #5e5e5e;
+}
+.leftimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.infos{
+    width: 80%;
+}
+.infos h3{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 1.1px;
+}
+.infos p {
+    text-align: left;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.mainimgright{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    /* background-color: aqua; */
+}
+.righimage{
+        height:40vw;
+        background-color: #5e5e5e;
+}
+.righimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info{
+    width: 100%;
+    
+}
+.info h3{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 1.1px;
+    text-align: right;
+}
+.info p{
+    text-align: right;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.heropage3{
+    width: 100%;
+    position: relative;
+    margin-top: 5vw ;
+}
+.imageforhero3 {
+    width: 65%;
+    height: 60vh;
+    background-color: #5e5e5e;
+}
+.imageforhero3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 100%;
+}
+.infoaboutimg{
+    width: 35%;
+    position: absolute;
+    right: -5%;
+    top: 25vh;
+    
+}
+.infoaboutimg h2{
+    line-height: 20px;
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+.infoaboutimg p{
+    width: 70%;
+    padding-top: 15px;
+    font-size: 13px;
+    opacity: 0.7;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.lastcontainer{
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+}
+video{
+    opacity: 0;
+}
+.infovideo{
+    background-color: aliceblue;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2vw 5vw;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.lastcontainer .infovideo h2{
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    padding: 10px 0;
+    
+
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5ms ease-in-out;
+    background-color: #5e5e5e;
+
+}
+
