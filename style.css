@@ -191,14 +191,14 @@ body {
     margin: 0 10px;
 }
 .onespan{
-    background-image: url("images/bluegirl.jpg");
+    background-image: url("Images/bluegirl.jpg");
     background-position:  0% 55%;
     background-size: cover;
 }
 .twospan{
     
     border-radius: 48%;
-    background-image: url("images/shaljam.jpg");
+    background-image: url("Images/shaljam.jpg");
     background-position:  0% 50%;
     background-size: cover;
     
@@ -206,7 +206,7 @@ body {
 .threespan{
    
     border-radius: 48%;
-    background-image: url("images/grass.jpg");
+    background-image: url("Images/grass.jpg");
     background-position:  0% 50%;
     background-size: cover;
     
@@ -214,7 +214,7 @@ body {
 .fourspan{
     
     border-radius: 48%;
-    background-image: url("images/sea.jpg");
+    background-image: url("Images/sea.jpg");
     background-position:  center;
     background-size: cover;
     
